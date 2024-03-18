@@ -1,0 +1,92 @@
+body {
+    background-image: url(/salonpic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+@font-face {
+    font-family: didone;
+    src: url('/didone.otf');
+}
+header {
+    background-color: #ffffff00;
+    color: #ffffff00;
+    padding: 10px 0;
+    display: flex;
+
+
+}
+
+.buttons {
+    display: flex;
+    background-color: transparent;
+    color: #F6C934;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 20px;
+    padding: 15px 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "area-normal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    width: 100%;
+}
+
+.buttons :hover {
+    text-decoration: underline;
+}
+
+.minilogo {
+    width: 80px;
+    height: 80px;
+}
+
+.titre {
+    color: #F6C934;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: didone;
+    margin-top: 8%;
+}
+
+.texte {
+    color: #F6C934;
+    display: flex;
+    justify-content: space-around;
+    font-family: "area-normal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.tdeux {
+    color: #F6C934;
+    display: flex;
+    justify-content: space-around;
+    font-family: "area-normal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.jsp {
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.separationlogo img {
+    width: 80px;
+    display: flex;
+
+}
+
+.separationlogo {
+    justify-content: space-between;
+    align-items: center;
+}

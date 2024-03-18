@@ -1,0 +1,79 @@
+body {
+    background-image: url('../bgmenu.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+@font-face {
+    font-family: didone;
+    src: url('/didone.otf');
+}
+header {
+    background-color: #ffffff00;
+    color: #ffffff00;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.buttons {
+    display: flex;
+    background-color: transparent;
+    color: #F6C934;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 20px;
+    padding: 15px 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "area-normal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    width: 100%;
+}
+
+.buttons :hover {
+    text-decoration: underline;
+}
+
+.mocktails {
+    color: #F6C934;
+    display: flex;
+    justify-content: space-around;
+    font-family: "area-normal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.minilogo {
+    width: 80px;
+    height: 80px;
+}
+
+.menu {
+    margin-top: 9%;
+    margin-bottom: 4%;
+}
+
+.titremenu {
+    color: #F6C934;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: didone;
+    margin-top: 8%;
+}
+
+.separationlogo {
+    display: flex;
+    margin-left: 46.5%;
+    width: 10%;
+    margin-top: 2%;
+    width: 40px;
+    height: 40px;
+}
+
